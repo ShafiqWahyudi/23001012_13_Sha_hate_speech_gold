@@ -1,0 +1,16 @@
+tags:
+  - name: Text Processing
+get:
+  description: Text yang akan diproses
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '5000':
+    description: internal Server Error
